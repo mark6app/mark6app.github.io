@@ -1,0 +1,47 @@
+@media ( min-width :968px) {
+	.dse-menu .li-level0>a span {
+		max-width: 120px
+	}
+}
+
+@media ( min-width :768px) and (max-width:967px) {
+	.dse-menu .li-level0>a span {
+		max-width: 100px;
+		padding-right: 10px;
+		word-break: break-all
+	}
+}
+
+.dropdown-menu2 {
+	filter: progid:DXImageTransform.Microsoft.Shadow(color='#aaaaaa',
+		Direction=135, Strength=3)
+}
+
+.slick-carousel .slick-slide {
+	margin: 0 3px
+}
+
+.slick-carousel .slick-slide img {
+	padding: 0
+}
+
+.main-carousel .slick-next,.main-carousel .slick-prev {
+	top: 110px
+}
+
+header .topbar {
+	min-height: 35px
+}
+
+header .logo {
+	min-height: 35px
+}
+
+@media ( min-width :768px) {
+	.main-carousel {
+		height: 383px
+	}
+	.slick-carousel {
+		height: 168px
+	}
+}
